@@ -1,0 +1,92 @@
+[
+    {
+        "id": "BRG-001",
+        "name": "Air Mineral 350ml",
+        "price": 3500,
+        "stock": 10
+    },
+    {
+        "id": "BRG-002",
+        "name": "Indomie Goreng",
+        "price": 3000,
+        "stock": 9
+    },
+    {
+        "id": "BRG-003",
+        "name": "Susu Ultra Milk Cokelat 250ml",
+        "price": 6000,
+        "stock": 6
+    },
+    {
+        "id": "BRG-004",
+        "name": "Kopi Kapal Api Sachet",
+        "price": 1500,
+        "stock": 5
+    },
+    {
+        "id": "BRG-005",
+        "name": "Roti Sari Roti Tawar",
+        "price": 12000,
+        "stock": 5
+    },
+    {
+        "id": "BRG-006",
+        "name": "Mie Sedap Ayam Bawang",
+        "price": 2900,
+        "stock": 8
+    },
+    {
+        "id": "BRG-007",
+        "name": "Teh Botol Sosro 450ml",
+        "price": 4500,
+        "stock": 6
+    },
+    {
+        "id": "BRG-008",
+        "name": "Sabun Lifebuoy 75gr",
+        "price": 3200,
+        "stock": 10
+    },
+    {
+        "id": "BRG-009",
+        "name": "Pasta Gigi Pepsodent 190gr",
+        "price": 12500,
+        "stock": 5
+    },
+    {
+        "id": "BRG-010",
+        "name": "Minyak Goreng Bimoli 1L",
+        "price": 18000,
+        "stock": 5
+    },
+    {
+        "id": "BRG-011",
+        "name": "Beras Cap Topi Koki 5kg",
+        "price": 72000,
+        "stock": 8
+    },
+    {
+        "id": "BRG-012",
+        "name": "Gula Pasir Gulaku 1kg",
+        "price": 16000,
+        "stock": 6
+    },
+    {
+        "id": "BRG-013",
+        "name": "Telur Ayam 1kg",
+        "price": 28000,
+        "stock": 5
+    },
+    {
+        "id": "BRG-014",
+        "name": "Shampoo Sunsilk 170ml",
+        "price": 18500,
+        "stock": 6
+    },
+    {
+        "id": "BRG-015",
+        "name": "Deterjen Rinso Bubuk 800gr",
+        "price": 21000,
+        "stock": 6
+    }
+]

@@ -1,0 +1,118 @@
+/*
+  Custom CSS untuk Sima Shop
+  - Mengatur layout utama, sidebar, tabel, tombol, dan komponen lain agar tampilan lebih modern dan konsisten.
+  - Komentar sudah ditambahkan di setiap bagian penting agar mudah dipelajari dan dikembangkan.
+*/
+
+/* Atur margin kiri konten utama agar tidak tertutup sidebar */
+.main-content {
+  margin-left: 270px;
+  transition: margin-left .3s;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+/* Responsive: margin kiri di layar kecil */
+@media (max-width: 1200px) {
+  .main-content {
+    margin-left: 0 !important;
+  }
+}
+
+/* Sidebar vertikal penuh */
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Pastikan tinggi penuh */
+}
+
+/* Menu utama sidebar agar fleksibel */
+.navbar-collapse {
+  flex-grow: 1; /* Menu utama mengambil semua ruang */
+}
+
+/* Tombol logout di sidebar selalu di bawah */
+.logout-container {
+  margin-top: auto; /* Dorong ke bawah */
+  padding: 1rem;
+}
+
+/* Badge checkout pada tombol keranjang */
+#checkout-btn .badge {
+  padding: 6px 8px;
+  font-size: 0.8em;
+}
+
+/* Warna tombol utama pada modal */
+.modal-footer .btn-primary {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+/* Card dan modal dengan sudut membulat dan shadow lembut */
+.card, .modal-content {
+  border-radius: 16px !important;
+  box-shadow: 0 4px 24px rgba(60,60,60,0.09);
+}
+
+/* Tabel: header tebal, rata tengah, dan warna latar */
+.table th, .table thead th {
+  font-weight: 700;
+  text-align: center;
+  background: #f8f9fa;
+}
+
+/* Tabel: isi rata tengah secara vertikal */
+.table td, .table th {
+  vertical-align: middle;
+}
+
+/* Tabel: baris ganjil diberi warna berbeda */
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f6f8fa;
+}
+
+/* Tombol dan input dengan sudut membulat */
+.btn, .form-control {
+  border-radius: 8px !important;
+}
+
+/* Tabel: efek hover pada baris */
+.table-hover tbody tr:hover {
+  background: #e3e8ef !important;
+  cursor: pointer;
+}
+
+/* Sidebar link: transisi warna dan sudut membulat */
+.sidebar-link {
+  transition: background 0.2s, color 0.2s;
+  border-radius: 0.5rem;
+}
+
+/* Sidebar link: efek hover dan fokus */
+.sidebar-link:hover, .sidebar-link:focus {
+  background: #222 !important;
+  color: #fff !important;
+}
+
+/* Sidebar link: ikon dan teks ikut berubah warna saat hover/fokus */
+.sidebar-link:hover .material-symbols-rounded,
+.sidebar-link:focus .material-symbols-rounded,
+.sidebar-link:hover .nav-link-text,
+.sidebar-link:focus .nav-link-text {
+  color: #fff !important;
+}
+
+/* Sidebar link aktif: warna lebih gelap */
+.sidebar-link.active, .sidebar-link[aria-current="page"] {
+  background: #111 !important;
+  color: #fff !important;
+}
+
+/* Sidebar link aktif: ikon dan teks ikut berubah warna */
+.sidebar-link.active .material-symbols-rounded,
+.sidebar-link.active .nav-link-text,
+.sidebar-link[aria-current="page"] .material-symbols-rounded,
+.sidebar-link[aria-current="page"] .nav-link-text {
+  color: #fff !important;
+}
