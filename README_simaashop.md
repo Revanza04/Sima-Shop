@@ -82,7 +82,7 @@ Sima Shop/
 │   └── riwayat_transaksi.json
 │
 ├── index.php
-└── README.md
+└── README_simashop.md
 ```
 
 ---
